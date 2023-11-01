@@ -1,0 +1,107 @@
+@import "color.scss";
+
+%box-1{
+  width: 1440px;
+  height:768px;
+}
+%box-2{
+  width: 1440px;
+  height:480px;
+}
+body {
+    width: 100%;
+    margin: auto;
+  }
+
+  .section-4 {
+    background-color: $bg-light;
+
+
+    >.container{
+     @extend %box-1;
+      position: absolute;
+      top: 1840px;
+      // background-color: pink;
+     
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+      div img{
+        width: 981px;
+        height: 653px;
+        position: relative;
+        top: 29px;
+        left: -101px;
+        // right:560px;
+        // background-color: red ;
+      }
+      >div:nth-child(2){
+        margin-top: 127px;
+        background-color: aqua;
+        min-width: 570px;
+        position: relative;
+        left: -245px;
+        padding: 0%;
+
+        div{
+          display: flex;
+          
+        }
+
+      }
+    }
+  }
+//   .container {
+//     display: flex;
+//     width: 81.25%;
+
+//     margin: auto;
+//   }
+// .section-5 {
+//     display: flex;
+//     flex-direction: column;
+//     text-align: center;
+
+//    @include theme();
+//     padding-bottom: 89px;
+//     h2{
+//         font-family: DM Serif Display;
+//         font-size: 56px;
+//         line-height: 64px;
+//        }
+//     p{
+//         width: 50%;
+//        margin: auto;
+//         text-align: center;
+//         font-family: DM Sans;
+//         font-size: 20px;
+//         line-height: 32px;
+//        }
+
+//     div{
+//         display: flex;
+//         margin: auto;
+//         font-style: normal;
+//         font-weight: 400;
+     
+//     //    gap: 40px;
+//             div{
+//                 flex-direction: column;
+//                 // background-color: red;
+//                 gap: 0px;
+//                 h1{
+//                     font-family: DM Serif Display;
+//                     font-size: 72px;
+//                     line-height: 80px;
+//                     margin: 0%;
+//                     padding: 0%;
+//                 }
+//                 p{
+//                     font-family: DM Sans;
+//                     font-size: 16px;
+//                     line-height: 24px;
+//                     margin: 0%;
+//                 }
+//        }
+       
+//      }
+//   }
