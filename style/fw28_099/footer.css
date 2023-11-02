@@ -1,0 +1,234 @@
+.footer1st {
+  background: #FFDD78;
+  width: 100%;
+  height: 352px;
+  padding: 0%;
+  margin: 0%;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1330px) {
+  .footer1st {
+    width: 100%;
+    height: 302px;
+  }
+}
+.footer2nd {
+  width: 100%;
+  height: 400px;
+  padding: 0%;
+  margin: 0%;
+  background: rgb(245, 246, 252);
+  margin: auto;
+}
+
+.footer2ndpart {
+  width: 80%;
+  display: grid;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  grid-template-areas: "fir sec thir fou" "fir sec thir fou";
+  justify-content: space-around;
+  margin: auto;
+  gap: 12%;
+}
+.footer2ndpart .footer2ndpart div:nth-child(1) {
+  grid-area: fir;
+}
+.footer2ndpart .footer2ndpart div:nth-child(2) {
+  grid-area: sec;
+}
+.footer2ndpart .footer2ndpart div:nth-child(1) {
+  grid-area: thir;
+}
+.footer2ndpart .footer2ndpart div:nth-child(1) {
+  grid-area: fou;
+}
+.footer2ndpart .social-media > img {
+  margin-right: 10px;
+}
+
+.conform {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+}
+.conform p {
+  color: rgb(168, 169, 173);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.conform #data1 {
+  color: #000;
+  /* Text_Small */
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 200% */
+}
+.conform #data2 {
+  color: #000;
+  /* Text_Small */
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 200% */
+}
+
+h4 {
+  color: rgb(15, 15, 15);
+  /* H4 */
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+
+.footer2ndpart > div > p {
+  color: rgb(168, 169, 173);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.footer2ndpart > div > h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+#subfooter {
+  display: flex;
+  margin: 0px 135px 0px 135px;
+}
+
+.subfooterfirst {
+  width: 46%;
+  padding-top: 3.5%;
+}
+.subfooterfirst h5 {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.subfooterfirst h2 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 114.286% */
+}
+
+.subfootersecond {
+  width: 54%;
+}
+
+button {
+  width: 170px;
+  height: 46px;
+  color: #FFF;
+  background-color: blue;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  border: none;
+  margin-left: 16px;
+  border-radius: 5px;
+}
+
+.subfootersecond input {
+  margin-top: 28%;
+  border-radius: 5px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+  width: 370px;
+  height: 46px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1330px) {
+  button {
+    width: 100px;
+    height: 40px;
+    color: #FFF;
+    background-color: blue;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    border: none;
+    margin-left: 16px;
+    border-radius: 5px;
+  }
+  .subfootersecond input {
+    margin-top: 25%;
+    border-radius: 5px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    width: 270px;
+    height: 40px;
+  }
+  .subfooterfirst {
+    width: 45%;
+    padding-top: 3.2%;
+  }
+  .subfooterfirst h5 {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 340;
+    line-height: 20px;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+  }
+  .subfooterfirst h2 {
+    color: var(--Text_Black, #000);
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 340;
+    line-height: 50px; /* 114.286% */
+  }
+}
+.lastpart {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.lastpart p {
+  color: rgb(168, 169, 173);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=footer.css.map */
