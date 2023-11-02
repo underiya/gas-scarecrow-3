@@ -1,0 +1,66 @@
+nav{
+    width: 1440px;
+    height: 80px;
+    background-color: rgba(67, 76, 204, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    h3{
+     padding-left: 135px;
+     font-size: 40px;
+     color:  #FFF;
+     font-weight: 400;
+     font-family: 'DM Serif Display', serif;
+    }
+    div{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+     padding-right: 135px;
+         a{
+             text-decoration: none;
+             color:#FFF;
+             font-family: 'DM Sans', sans-serif;
+             font-size: 16px;
+             font-weight: 700;
+         }
+         button{
+             height: 48px;
+             width: 170px;
+             color: #FFF;
+             border-radius: 5px;
+             border: 1px solid rgba(255, 255, 255, 0.30);
+             background-color: rgba(67, 76, 204, 1);
+             color:#FFF;
+             font-family: 'DM Sans', sans-serif;
+             font-size: 16px;
+             font-weight: 700;
+             cursor: pointer;
+         }
+    }
+ }
+ .contact{
+     height: 224px;
+     width: 1440px;
+     background-color: rgba(67, 76, 204, 1);
+ 
+     h1{
+         padding-top: 47px;
+         color: #FFF;
+         text-align: center;
+         font-family: 'DM Serif Display', serif;
+         font-size: 72px;
+         font-weight: 400;
+     }
+     p{
+         padding-top: 10px;
+         color: white;
+         text-align: center;
+         font-family: 'DM Sans', sans-serif;
+         font-size: 20px;
+         font-style: normal;
+         font-weight: 400;
+     }
+ }
+ 
