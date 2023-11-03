@@ -12,3 +12,18 @@ font-weight: 400;
 line-height: 24px;
    }
 }
+
+@media screen and (min-width:390px) and (max-width:769px){
+    .lastpart{
+        width: 100%;
+        display: block;
+       p{
+        color: $primary-color;
+        font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+       }
+    }
+}
