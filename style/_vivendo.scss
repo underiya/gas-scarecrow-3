@@ -78,3 +78,85 @@
         }
     }
 }
+@media all and (max-width:480px){
+    .vivendo{
+        width: 375px;
+        // background-color:  #F5F6FD;
+        h2{
+            // margin-top: 1px;
+            // padding-top: 59px;
+            // text-align: center;
+            // font-family: 'DM Serif Display', serif;
+            font-size: 40px;
+            // font-style: normal;
+            // font-weight: 400;
+            // line-height: 64px;
+        }
+        p{
+            // margin-top: 29px;
+            // text-align: center;
+            // font-family: 'DM Sans', sans-serif;
+            font-size: 20px;
+            // font-style: normal;
+            // font-weight: 400;
+            // line-height: 32px;
+        }
+    }
+        .cont1{
+            width: 375px;
+            // background-color:  #F5F6FD;
+            // padding-top: 50px;
+            // padding-bottom: 80px;
+            // display: grid;
+            grid-template-columns: repeat(1, 346px);
+            // justify-content: center;
+            // gap: 30px;     
+            
+            div{
+                // height: 416px;
+                // padding-left: 30px;
+                // border-radius: 5px;
+                // background: #FFF;
+                // box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+                
+    
+            // img{
+            //     display: flex;
+            //     padding-right: 30px;
+            // }
+            
+            // h4{
+            //     margin-top: 60px;
+            //     margin-left: 0%;
+            //     font-family: 'DM Serif Display', serif;
+            //     font-size: 24px;
+            //     font-style: normal;
+            //     font-weight: 400;
+            //     line-height: 32px; 
+            // }
+            // p{
+            //     margin-top: 15px;
+            //     color: rgba(0, 0, 0, 0.50);
+            //     font-family: 'DM Sans', sans-serif;
+            //     font-size: 16px;
+            //     font-style: normal;
+            //     font-weight: 400;
+            //     line-height: 24px;
+            //     letter-spacing: 0.5px; 
+            // }
+            // hr{
+            //     margin-top: 25px;
+            //     margin-bottom: 18px;
+            // }
+            // a{
+            //     text-decoration: none;
+            //     color: black;
+            //     font-family: 'DM Sans', sans-serif;
+            //     font-size: 16px;
+            //     font-style: normal;
+            //     font-weight: 700;
+            //     line-height: 24px; 
+            // }
+        }
+    }
+}

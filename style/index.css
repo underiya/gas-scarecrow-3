@@ -64,6 +64,37 @@ nav div button {
   font-weight: 400;
 }
 
+@media all and (max-width: 480px) {
+  #menu {
+    display: block;
+    color: #FFF;
+  }
+  nav {
+    width: 375px;
+    height: 64px;
+  }
+  nav h3 {
+    margin-left: 15px;
+    font-size: 24px;
+  }
+  nav div {
+    margin-right: 15px;
+  }
+  nav div a {
+    display: none;
+  }
+  nav div button {
+    display: none;
+  }
+  .about {
+    height: 224px;
+    width: 375px;
+    background-color: rgb(67, 76, 204);
+  }
+  .about h1 {
+    font-size: 56px;
+  }
+}
 .homero {
   width: 1440px;
   height: 768;
@@ -170,6 +201,51 @@ nav div button {
   margin-left: 482px;
 }
 
+@media all and (max-width: 480px) {
+  .homero {
+    width: 375px;
+    height: 1152px;
+  }
+  .homero div {
+    margin-left: 14px;
+    margin-top: 47px;
+    width: 346px;
+  }
+  .homero div h2 {
+    font-size: 40px;
+  }
+  .homero div div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .homero div div div:nth-child(1) {
+    width: 270px;
+  }
+  .homero div div div:nth-child(1) h3 {
+    margin-left: 0px;
+  }
+  .homero div div div:nth-child(1) p:nth-child(2) {
+    margin-left: 0px;
+  }
+  .homero div div div:nth-child(2) {
+    margin-left: 0px;
+    width: 270px;
+  }
+  .homero div div div:nth-child(2) h3 {
+    margin-left: 0px;
+  }
+  .homero div div div:nth-child(2) p:nth-child(2) {
+    margin-left: 0px;
+  }
+  .homero img {
+    margin-top: 700px;
+    margin-right: 1px;
+    margin-left: -180px;
+    width: 647px;
+    height: 431px;
+  }
+}
 .vivendo {
   width: 1440px;
   background-color: #F5F6FD;
@@ -248,6 +324,21 @@ nav div button {
   line-height: 24px;
 }
 
+@media all and (max-width: 480px) {
+  .vivendo {
+    width: 375px;
+  }
+  .vivendo h2 {
+    font-size: 40px;
+  }
+  .vivendo p {
+    font-size: 20px;
+  }
+  .cont1 {
+    width: 375px;
+    grid-template-columns: repeat(1, 346px);
+  }
+}
 * {
   margin: auto;
 }/*# sourceMappingURL=index.css.map */
