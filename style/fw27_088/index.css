@@ -1,0 +1,242 @@
+.section-4 > .container {
+  width: 1440px;
+  height: 768px;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+}
+
+.section-4 {
+  background-color: rgba(67, 76, 204, 0.0515);
+  width: 1440px;
+}
+.section-4 > .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.section-4 > .container div img {
+  width: 981px;
+  height: 653px;
+  position: relative;
+  top: 29px;
+  left: -101px;
+}
+.section-4 > .container > div:nth-child(2) {
+  padding: 127px;
+  min-width: 570px;
+  position: relative;
+  left: -245px;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.section-4 > .container > div:nth-child(2) h5 {
+  margin: 0%;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.section-4 > .container > div:nth-child(2) h2 {
+  margin: 0%;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+}
+.section-4 > .container > div:nth-child(2) p {
+  margin: 0%;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.section-4 > .container > div:nth-child(2) div {
+  margin: 0%;
+  margin-top: 24px;
+  display: inline-flex;
+  gap: 20px;
+}
+.section-4 > .container > div:nth-child(2) div button {
+  display: inline-block;
+  margin: 30px;
+  width: 170px;
+  height: 48px;
+  border: 1px solid rgb(67, 76, 204);
+  border-radius: 5px;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+.section-4 > .container > div:nth-child(2) div button:nth-child(1) {
+  background-color: rgb(67, 76, 204);
+  color: white;
+}
+.section-4 > .container > div:nth-child(2) div button:nth-child(2) {
+  color: rgb(67, 76, 204);
+  background-color: rgba(67, 76, 204, 0.0515);
+}
+
+.section-5 {
+  text-align: center;
+  width: 1440px;
+  background-color: rgb(67, 76, 204);
+  color: white;
+}
+.section-5 .container {
+  padding: 76px;
+}
+.section-5 .container h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+}
+.section-5 .container p {
+  margin: auto;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 35px;
+  margin-top: 29px;
+}
+.section-5 .container > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 105px;
+}
+.section-5 .container > div div {
+  display: flex;
+  flex-direction: column;
+}
+.section-5 .container > div div h1 {
+  font-family: "DM serif Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 111.111% */
+  margin-bottom: 0%;
+}
+.section-5 .container > div div p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-top: 0%;
+}
+
+.section-6 {
+  background-color: rgba(67, 76, 204, 0.0515);
+  width: 1440px;
+}
+.section-6 .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 120px;
+}
+.section-6 .container .section-6-left > h5, .section-6 .container .section-6-left h2, .section-6 .container .section-6-left p, .section-6 .container .section-6-left button {
+  margin: 20px;
+}
+.section-6 .container .section-6-left > h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.section-6 .container .section-6-left > h2 {
+  /* H2 */
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+}
+.section-6 .container .section-6-left > p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.section-6 .container .section-6-left button {
+  width: 170px;
+  height: 48px;
+  border: 1px solid rgb(67, 76, 204);
+  color: rgb(67, 76, 204);
+  border-radius: 5px;
+  background-color: rgba(67, 76, 204, 0.0515);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+.section-6 .container .section-6-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.section-6 .container .section-6-right div {
+  display: flex;
+  padding: 2%;
+  gap: 10px;
+}
+.section-6 .container .section-6-right div div {
+  display: flex;
+  flex-direction: column;
+}
+.section-6 .container .section-6-right div div h4 {
+  margin-left: 0%;
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+.section-6 .container .section-6-right div div p {
+  color: rgb(0, 0, 0);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+@media all and (max-width: 480px) {
+  .section-4 .container {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    left: 245px;
+  }
+  .section-4 .container div:nth-child(2) {
+    background-color: antiquewhite;
+    position: relative;
+    left: 0px;
+    padding: 20px;
+  }
+  .section-4 .container div:nth-child(2) > p {
+    width: 346px;
+    height: 128px;
+  }
+}/*# sourceMappingURL=index.css.map */
