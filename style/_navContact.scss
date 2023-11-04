@@ -63,4 +63,199 @@ nav{
          font-weight: 400;
      }
  }
+ #map{
+      width:1440px;
+      height:1248px;
+     background-color: rgb(245,246,252);
+      border:1px solid rgb(245,246,252);;
+    //   padding:100px;
+    }
+
+    #map1{
+        width: 1170px;
+         height: 640px;
+         flex-shrink: 0;
+        margin:64px 135px 544px 135px;
+        border-radius:5px;
+       position:relative;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+   #message{
+    font-family: DM Serif Display;
+     font-size: 56px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 64px;
+     padding-top:60px;
+     position:absolute;
+     
+   }
+//    your name
+   input[type=text]{   
+    position: absolute;
+    width:401px;
+    height:48px;
+    border-radius: 8px;
+     border: 1px solid #DADADA;
+      background: #FFF;
+      margin-top:160px;
+      padding-left:5px;
+      font-size:20px;
+   }
+    input[type=text]:focus {
+  background-color: rgb(238, 238, 238);
+    }
+    
+//    your email
+    .post2{
+        input[type=email]{   
+            position: absolute;
+            width:401px;
+            height:48px;
+            border-radius: 8px;
+             border: 1px solid #DADADA;
+              background: #FFF;
+              margin-top:160px;
+              margin-left:430px;
+              padding-left:5px;
+              font-size:20px;
+           }
+            input[type=email]:focus {
+                background-color: rgb(238, 238, 238);
+            }
+            
+    }
+    .post3{
+        input[type=text]{   
+            // position: absolute;
+            width:834px;
+            height:144px;
+            border-radius: 8px;
+             border: 1px solid #DADADA;
+              background: #FFF;
+              margin-top:235px;
+              margin-left:0px;
+              padding-left:5px;
+              font-size:20px;
+           }
+            input[type=text]:focus {
+                background-color: rgb(238, 238, 238);
+            }
+
+    }
+    #button{
+        position: absolute;
+        top:1050px;
+        width: 170px;
+        height: 48px;
+        flex-shrink: 0;
+        background-color: rgba(67, 76, 204, 1);
+        border-radius:10px;
+        color: #FFF;
+  
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 16px;
+         font-style: normal;
+        font-weight: 700;
+         line-height: 24px;
+         
+    }
+    #button:hover{
+     cursor: pointer;
+     background-color: #2430e2;
+    }
+
+    input:hover{
+        cursor:pointer;
+          }
+//    ------------------------info part -----------
+    #info{
+    font-family: DM Serif Display;
+     font-size: 56px;
+     font-style: normal;
+    font-weight: 400;
+     line-height: 64px;
+     padding-top:60px;
+     padding-left:935px;
+     position:absolute;
+}
+img{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+    position: relative;
+    padding-top:160px;
+    padding-left:935px;
+    
+}
+
+.p1{
+    width:200px;
+    height:48px;
+    // border:1px solid black;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position:absolute;
+    top:805px;
+    left:1010px
+
+   
+}
+  .phone{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+    position: relative;
+    padding-top:32px;
+    padding-left:935px;
+   
+  }
+.p2{
+    width:200px;
+    height:32px;
+    // border:1px solid black;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    position:absolute;
+    top:893px;
+    left:1010px
+
+}
+.email{
+    width: 48px;
+    height: 37px;
+    flex-shrink: 0;
+    fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+    position: relative;
+    padding-top:32px;
+    padding-left:935px;
+
+}
+.p3{
+    width:200px;
+    height:24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    // border:1px solid black;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    position:absolute;
+    top:986px;
+    left:1010px
+}
+
+
+
+
+
  
