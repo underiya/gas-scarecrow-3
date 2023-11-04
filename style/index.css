@@ -41,6 +41,10 @@ nav div button {
   cursor: pointer;
 }
 
+#menu {
+  display: none;
+}
+
 .about {
   height: 224px;
   width: 1440px;
