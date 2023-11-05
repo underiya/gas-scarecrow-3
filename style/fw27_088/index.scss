@@ -245,10 +245,10 @@ line-height: 24px; /* 150% */
             h4{
               margin-left: 0%;
               font-family: DM Serif Display;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 133.333% */
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 32px; /* 133.333% */
             }
             p{
               color: rgba(0, 0, 0, 50);
@@ -266,94 +266,143 @@ line-height: 24px; /* 150% */
 
 
 
-// @media all and (max-width:480px){
-// .section-4{
-//   // width: 375px;
-//   // height: 1056px;
-//     .container{
-     
-//       background-color: aqua;
-//       display: grid;
-      
-//       grid-template-columns: repeat(1,1fr);
-//     // position: static;
-//     left: 245px;
-//     div:nth-child(2) {
-//       >p{
-//       width: 346px;
-//       height: 128px;
-//       }
-//       background-color: antiquewhite;
-//       position: relative;
-//       left: 0px;
-//       padding: 20px;
-      
-//     }
-      
-      
-//     }
-//   }
+@media all and (max-width:376px){
+.section-4{
+  width: 375px;
+  height: 1056px;
+  .container{
   
-// }
-// .section-5{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    >div img{
+      width: 694px;
+height: 461px;
+position: relative;
+left: -500px;
+    }
+    >div:nth-child(2){
+      width: 375px;
+      
+      position: relative;
+      left: -420px;
+      top: 20px;
+      h5{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: 4.8px;
+      }
+      h2{
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px; /* 120% */
+      }
+      p{
+        width: 346px;
+
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 160% */
+      }
+        div:last-child{
+          gap: 6px;
+          button{
+            margin: 0px;
+          }
+        }
+    }
+  }
+
+  }
+
+  .section-5 {
+    width: 375px;
+    .container {
+      h2{
+        font-family: DM Serif Display;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; /* 120% */
+      }
+      p{
+        width: 237px;
+
+        font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+      }
+      >div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+      }
+    }
+  }
   
-// }
+  .section-6{
+    width: 375px;
+   
+    .container{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      padding: 0px;
+      width: 375px;
 
+      .section-6-left{
+        padding: 63px 0px;
+       text-align: start;
+        h2{
+          font-family: DM Serif Display;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 48px; /* 120% */
+        }
+        p{
+          width: 346px;
 
-
-//   .container {
-//     display: flex;
-//     width: 81.25%;
-
-//     margin: auto;
-//   }
-// .section-5 {
-//     display: flex;
-//     flex-direction: column;
-//     text-align: center;
-
-//    @include theme();
-//     padding-bottom: 89px;
-//     h2{
-//         font-family: DM Serif Display;
-//         font-size: 56px;
-//         line-height: 64px;
-//        }
-//     p{
-//         width: 50%;
-//        margin: auto;
-//         text-align: center;
-//         font-family: DM Sans;
-//         font-size: 20px;
-//         line-height: 32px;
-//        }
-
-//     div{
-//         display: flex;
-//         margin: auto;
-//         font-style: normal;
-//         font-weight: 400;
-     
-//     //    gap: 40px;
-//             div{
-//                 flex-direction: column;
-//                 // background-color: red;
-//                 gap: 0px;
-//                 h1{
-//                     font-family: DM Serif Display;
-//                     font-size: 72px;
-//                     line-height: 80px;
-//                     margin: 0%;
-//                     padding: 0%;
-//                 }
-//                 p{
-//                     font-family: DM Sans;
-//                     font-size: 16px;
-//                     line-height: 24px;
-//                     margin: 0%;
-//                 }
-//        }
-       
-//      }
-//   }
-
+          font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+        }
+      }
+      .section-6-right{
+       grid-template-columns: repeat(1,1fr);
+       width: 375px;
+      
+        padding-bottom:49px ;
+        svg{
+          width: 50px;
+          transform: scale(1.4);
+          padding: 5%;
+          height: 47px;
+        }
+        h4{
+          font-family: DM Serif Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+        }
+        p{
+          font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+        }
+      }
+    }
+  }
+}

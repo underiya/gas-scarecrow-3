@@ -220,4 +220,132 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+
+@media all and (max-width: 376px) {
+  .section-4 {
+    width: 375px;
+    height: 1056px;
+  }
+  .section-4 .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-4 .container > div img {
+    width: 694px;
+    height: 461px;
+    position: relative;
+    left: -500px;
+  }
+  .section-4 .container > div:nth-child(2) {
+    width: 375px;
+    position: relative;
+    left: -420px;
+    top: 20px;
+  }
+  .section-4 .container > div:nth-child(2) h5 {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 4.8px;
+  }
+  .section-4 .container > div:nth-child(2) h2 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+  }
+  .section-4 .container > div:nth-child(2) p {
+    width: 346px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+  }
+  .section-4 .container > div:nth-child(2) div:last-child {
+    gap: 6px;
+  }
+  .section-4 .container > div:nth-child(2) div:last-child button {
+    margin: 0px;
+  }
+  .section-5 {
+    width: 375px;
+  }
+  .section-5 .container h2 {
+    font-family: DM Serif Display;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+  }
+  .section-5 .container p {
+    width: 237px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+  }
+  .section-5 .container > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .section-6 {
+    width: 375px;
+  }
+  .section-6 .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px;
+    width: 375px;
+  }
+  .section-6 .container .section-6-left {
+    padding: 63px 0px;
+    text-align: start;
+  }
+  .section-6 .container .section-6-left h2 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+  }
+  .section-6 .container .section-6-left p {
+    width: 346px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+  }
+  .section-6 .container .section-6-right {
+    grid-template-columns: repeat(1, 1fr);
+    width: 375px;
+    padding-bottom: 49px;
+  }
+  .section-6 .container .section-6-right svg {
+    width: 50px;
+    transform: scale(1.4);
+    padding: 5%;
+    height: 47px;
+  }
+  .section-6 .container .section-6-right h4 {
+    font-family: DM Serif Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+  }
+  .section-6 .container .section-6-right p {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+  }
 }/*# sourceMappingURL=index.css.map */
