@@ -13,10 +13,11 @@ line-height: 24px;
    }
 }
 
-@media screen and (min-width:390px) and (max-width:769px){
+@media all and (max-width:376px){
     .lastpart{
         width: 100%;
         display: block;
+        padding: 2%;
        p{
         color: $primary-color;
         font-family: DM Sans;
