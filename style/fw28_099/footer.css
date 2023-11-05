@@ -9,7 +9,7 @@
 @media all and (max-width: 375px) {
   .footer1st {
     width: 100%;
-    height: 500px;
+    height: 410px;
   }
 }
 .footer2nd {
@@ -109,12 +109,12 @@ h4 {
 @media all and (max-width: 376px) {
   .footer2nd {
     width: 100%;
-    height: 720px;
+    height: 512px;
     padding: 0%;
     margin: 0%;
     background: rgb(245, 246, 252);
     margin: auto;
-    padding-bottom: 25px;
+    padding-bottom: 12px;
   }
   .footer2ndpart {
     width: 80%;
