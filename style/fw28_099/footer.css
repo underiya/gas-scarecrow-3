@@ -1,6 +1,6 @@
 .footer1st {
   background: #FFDD78;
-  width: 100%;
+  width: 1440px;
   height: 352px;
   padding: 0%;
   margin: 0%;
@@ -52,37 +52,34 @@
 .footer2ndpart .social-media > img {
   margin-right: 10px;
 }
-
-.conform {
+.footer2ndpart .conform {
   display: flex;
   gap: 8%;
   align-items: center;
 }
-.conform p {
+.footer2ndpart .conform p {
   color: rgb(168, 169, 173);
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
 }
-.conform #data1 {
+.footer2ndpart .conform #data1 {
   color: #000;
-  /* Text_Small */
   font-family: DM Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 200% */
+  line-height: 24px;
 }
-.conform #data2 {
+.footer2ndpart .conform #data2 {
   color: #000;
-  /* Text_Small */
   font-family: DM Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 200% */
+  line-height: 24px;
 }
 
 h4 {
@@ -150,12 +147,11 @@ h4 {
   display: flex;
   margin: 0px 135px 0px 135px;
 }
-
-.subfooterfirst {
+#subfooter .subfooterfirst {
   width: 46%;
   padding-top: 3.5%;
 }
-.subfooterfirst h5 {
+#subfooter .subfooterfirst h5 {
   color: var(--Text_Black, #000);
   font-family: DM Sans;
   font-size: 16px;
@@ -165,20 +161,18 @@ h4 {
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
-.subfooterfirst h2 {
+#subfooter .subfooterfirst h2 {
   color: var(--Text_Black, #000);
   font-family: DM Serif Display;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
-  line-height: 60px; /* 114.286% */
+  line-height: 60px;
 }
-
-.subfootersecond {
+#subfooter .subfootersecond {
   width: 54%;
 }
-
-.subfootersecond #bttn1 {
+#subfooter .subfootersecond #bttn1 {
   width: 160px;
   height: 48px;
   color: #FFF;
@@ -192,8 +186,7 @@ h4 {
   border: none;
   border-radius: 5px;
 }
-
-.subfootersecond input {
+#subfooter .subfootersecond input {
   margin-top: 28%;
   margin-left: 5%;
   padding-left: 15px;
@@ -203,9 +196,8 @@ h4 {
   width: 280px;
   height: 48px;
 }
-
 @media screen and (min-width: 970px) and (max-width: 1130px) {
-  .subfootersecond #bttn1 {
+  #subfooter .subfootersecond #bttn1 {
     width: 90px;
     height: 40px;
     color: #FFF;
@@ -220,7 +212,7 @@ h4 {
     margin-left: 5px;
     border-radius: 5px;
   }
-  .subfootersecond input {
+  #subfooter .subfootersecond input {
     margin-top: 25%;
     border-radius: 5px;
     border: 1px solid #DADADA;
@@ -228,11 +220,11 @@ h4 {
     width: 170px;
     height: 40px;
   }
-  .subfooterfirst {
+  #subfooter .subfooterfirst {
     width: 45%;
     padding-top: 3.2%;
   }
-  .subfooterfirst h5 {
+  #subfooter .subfooterfirst h5 {
     color: #000;
     font-family: DM Sans;
     font-size: 14px;
@@ -242,7 +234,7 @@ h4 {
     letter-spacing: 4.2px;
     text-transform: uppercase;
   }
-  .subfooterfirst h2 {
+  #subfooter .subfooterfirst h2 {
     color: var(--Text_Black, #000);
     font-family: DM Serif Display;
     font-size: 40px;
@@ -251,6 +243,7 @@ h4 {
     line-height: 50px; /* 114.286% */
   }
 }
+
 @media screen and (min-width: 390px) and (max-width: 769px) {
   #subfooter {
     display: block;
@@ -339,13 +332,11 @@ h4 {
 body {
   padding: 0%;
   margin: 0%;
-  width: 100%;
 }
 
 @media screen and (min-width: 390px) and (max-width: 769px) {
   body {
     padding: 0%;
     margin: 0%;
-    width: 100%;
   }
 }/*# sourceMappingURL=footer.css.map */

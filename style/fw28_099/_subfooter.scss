@@ -4,7 +4,7 @@
     // border:1px solid red;
     margin: 0px 135px 0px 135px;
    
-}
+
 
 .subfooterfirst{
     width: 46%;
@@ -27,7 +27,7 @@ font-family: DM Serif Display;
 font-size: 50px;
 font-style: normal;
 font-weight: 400;
-line-height: 60px; /* 114.286% */
+line-height: 60px; 
 
     }
 }
@@ -35,8 +35,9 @@ line-height: 60px; /* 114.286% */
 .subfootersecond{
     width: 54%;
    // border: 1px solid;
-}
-.subfootersecond #bttn1{
+//}
+//.subfootersecond
+ #bttn1{
     width: 160px;
     height: 48px;
     color: #FFF;
@@ -51,9 +52,9 @@ border: none;
 // margin-left: 18px;
 border-radius: 5px;
 }
+//.subfootersecond
 
-
-.subfootersecond input{
+ input{
     margin-top: 28%;
     margin-left: 5%;
     padding-left: 15px;
@@ -62,6 +63,7 @@ border-radius: 5px;
     background: #FFF;
     width: 280px;
     height: 48px;
+}
 }
 
 @media screen and (min-width:970px) and (max-width:1130px){
@@ -113,6 +115,7 @@ border-radius: 5px;
     
         }
     }
+}
 }
 
 @media screen and (min-width:390px) and (max-width:769px){
