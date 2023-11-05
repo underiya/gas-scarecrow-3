@@ -6,11 +6,8 @@
 .sec7 {
   width: 1440px;
   height: 768px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .sec7 > div:nth-child(1) {
   width: 889px;
   height: 500px;
@@ -18,7 +15,6 @@
   margin-left: -116px;
   margin-bottom: 133px;
 }
-
 .sec7 > div:nth-child(1) > img {
   width: 570px;
   height: 480px;
@@ -27,7 +23,6 @@
   margin-bottom: 11px;
   margin-right: 68px;
 }
-
 .sec7 > div:nth-child(2) {
   width: 667px;
   height: 500px;
@@ -40,34 +35,29 @@
   margin-left: 62px;
   margin-top: 56px;
 }
-
 .content > div:nth-child(2) {
   margin-right: 194px;
 }
-
 .content > div:nth-child(2) > h2 {
   font-size: 56px;
   margin-top: 21px;
   margin-left: 62px;
 }
-
 .content > div:nth-child(3) {
   margin-right: 135px;
 }
-
 .content > div:nth-child(3) > p {
   font-size: 20px;
   margin-top: 29px;
   margin-left: 62px;
 }
-
 .content > div:nth-child(4) > button {
   margin-left: 62px;
   width: 170px;
   height: 48px;
   font-size: 16px;
   border-radius: 10px;
-  background-color: #434ccc;
+  background-color: rgb(67, 76, 204);
   color: white;
   border: none;
   margin-top: 32px;
@@ -76,16 +66,12 @@
 .sec8 {
   width: 1440px;
   height: 768px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .sec8 > div:nth-child(1) {
   width: 510px;
   height: 768px;
 }
-
 .sec8 > div:nth-child(2) {
   position: relative;
   bottom: 62px;
@@ -94,17 +80,14 @@
 .contents {
   margin-top: 143px;
 }
-
 .contents > div:nth-child(1) > h5 {
   font-size: 16px;
   margin-left: 135px;
 }
-
 .contents > div:nth-child(2) {
   margin-left: 135px;
   margin-top: 21px;
 }
-
 .contents > div:nth-child(2) > h2 {
   font-size: 56px;
 }
@@ -113,72 +96,63 @@
   margin-left: 135px;
   display: inline;
 }
-
 #percent > div:nth-child(1) {
   margin-left: 135px;
   margin-bottom: 7px;
   font-size: 20px;
   margin-top: 45px;
 }
-
 #percent > div:nth-child(3) {
   margin-left: 135px;
   margin-bottom: 7px;
   margin-top: 31px;
   font-size: 20px;
 }
-
 #percent > div:nth-child(5) {
   margin-left: 135px;
   margin-bottom: 7px;
   margin-top: 31px;
   font-size: 20px;
 }
-
 #percent > div:nth-child(2) {
   width: 470px;
   height: 10px;
   margin-left: 135px;
   border-radius: 10px;
-  background-color: #e9e9e9;
+  background-color: rgb(233, 233, 233);
 }
-
 #percent > div:nth-child(2) > div {
   width: 382px;
   height: 10px;
-  background-color: #f1b505;
+  background-color: rgb(241, 181, 5);
   border-radius: 10px;
   margin: 0px;
 }
-
 #percent > div:nth-child(4) {
   width: 470px;
   height: 10px;
   margin-left: 135px;
   border-radius: 10px;
-  background-color: #e9e9e9;
+  background-color: rgb(233, 233, 233);
 }
-
 #percent > div:nth-child(4) > div {
   width: 318px;
   height: 10px;
-  background-color: #e94a47;
+  background-color: rgb(233, 74, 71);
   border-radius: 10px;
   margin: 0px;
 }
-
 #percent > div:nth-child(6) {
   width: 470px;
   height: 10px;
   margin-left: 135px;
   border-radius: 10px;
-  background-color: #e9e9e9;
+  background-color: rgb(233, 233, 233);
 }
-
 #percent > div:nth-child(6) > div {
   width: 182px;
   height: 10px;
-  background-color: #428dfc;
+  background-color: rgb(66, 141, 252);
   border-radius: 10px;
   margin: 0px;
 }
@@ -193,13 +167,13 @@
   }
   .sec7 > div:nth-child(1) {
     width: 539.64px;
-    height: 305.20px;
-    margin-left: -138.20px;
+    height: 305.2px;
+    margin-left: -138.2px;
     margin-right: -26.28px;
     margin-top: 9.51px;
   }
   .sec7 > div:nth-child(1) img {
-    margin-left: 145px;
+    margin-left: 160px;
     margin-right: 41px;
     margin-top: 5.5px;
     margin-bottom: 6.7px;
@@ -215,6 +189,7 @@
   }
   .content > div:nth-child(2) {
     width: 294px;
+    margin: 0px;
   }
   .content > div:nth-child(2) h2 {
     margin-left: 14px;
@@ -223,6 +198,7 @@
   }
   .content > div:nth-child(3) {
     width: 346px;
+    margin: 0px;
   }
   .content > div:nth-child(3) p {
     margin-left: 14px;
@@ -250,9 +226,11 @@
     margin-left: 14px;
   }
   .contents > div:nth-child(2) {
-    margin-left: 14px;
+    margin: 0px;
   }
   .contents > div:nth-child(2) h2 {
+    margin-top: 19px;
+    margin-left: 14px;
     width: 245px;
     font-size: 40px;
   }
@@ -286,5 +264,4 @@
   #percent > div:nth-child(6) > div {
     width: 141px;
   }
-}
-/*# sourceMappingURL=sec7.css.map */
+}/*# sourceMappingURL=sec7.css.map */
