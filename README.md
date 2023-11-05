@@ -4,7 +4,7 @@ This README.md file provides an overview of designing a webpage and styling it u
 
 ## Group-Project
 
-- Team Members:
+### Team Members:
 
 * Abhishek Kumar fw28_276 |
 * Deepak Underiya fw27_088 |
