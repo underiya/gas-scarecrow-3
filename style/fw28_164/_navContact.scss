@@ -1,0 +1,229 @@
+
+  $bg-color:rgba(67, 76, 204, 1);
+
+nav{
+    width: 1440px;
+    height: 80px;
+    background-color: rgba(67, 76, 204, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    h3{
+     padding-left: 135px;
+     font-size: 40px;
+     color:  #FFF;
+     font-weight: 400;
+     font-family: 'DM Serif Display', serif;
+    }
+    div{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+     padding-right: 135px;
+         a{
+             text-decoration: none;
+             color:#FFF;
+             font-family: 'DM Sans', sans-serif;
+             font-size: 16px;
+             font-weight: 700;
+         }
+         button{
+             height: 48px;
+             width: 170px;
+             color: #FFF;
+             border-radius: 5px;
+             border: 1px solid rgba(255, 255, 255, 0.30);
+             background-color: $bg-color;
+             color:#FFF;
+             font-family: 'DM Sans', sans-serif;
+             font-size: 16px;
+             font-weight: 700;
+             cursor: pointer;
+         }
+    }
+ }
+ .contact{
+     height: 224px;
+     width: 1440px;
+     background-color: $bg-color;
+ 
+     h1{
+         padding-top: 47px;
+         color: #FFF;
+         text-align: center;
+         font-family: 'DM Serif Display', serif;
+         font-size: 72px;
+         font-weight: 400;
+     }
+     p{
+         padding-top: 10px;
+         color: white;
+         text-align: center;
+         font-family: 'DM Sans', sans-serif;
+         font-size: 20px;
+         font-style: normal;
+         font-weight: 400;
+     }
+ }
+//  MAP --START------
+   
+#mapstart{
+    width: 1440px;
+    
+    // height: 1248px;
+    flex-shrink: 0;
+    // border:1px solid  black;
+    background-color: rgb(245,246,252);
+    // display:flex;
+    flex-direction: column;
+    position: relative;
+  
+
+}
+#mapstart{
+    #map{
+        width: 1170px;
+        height: 640px;
+        padding-top: 64px;
+        flex-shrink: 0;
+        margin:0px 135px 0px 135px;
+        border-radius:5px;
+        // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        // border:2px solid black;
+        position:relative;
+
+    }
+    #mess{
+        width:1440px;
+        height: 540px;
+      
+        // border:1px solid black;
+        display: flex;
+        
+      
+    }
+}
+ #nameemail{
+    display:flex;
+    margin-top:34px;
+    width:835px;
+
+    >div{
+        width: 401px;
+        height:48px;
+        border:1px solid ;
+        border-radius:5px;
+    }
+    >div:nth-child(1){
+        margin-left:0px;
+       
+    }
+ }
+ #block1{
+       
+    
+     >div:nth-child(1){
+        width:206px;
+        height:64px;
+          margin-left:0px;
+          margin-top:0px;
+        h2{
+            font-size:56px ;
+
+        }
+     }
+
+     >div:nth-child(3){
+        width:834px;
+            height:144px;
+            border:1px solid;
+            margin-top:28px;
+            border-radius:5px;
+     }
+     >div:nth-child(4){
+       
+        margin-top:32px;
+        button{
+            background-color:rgba(67, 76, 204, 1);
+            font-size: 16px;
+            width:170px;
+        color:white;
+        height:48px;
+        border-radius:5px;
+        }
+     }
+ }
+
+ #block2{
+    margin-top:77px;
+   margin-left:0px;
+    >div:nth-child(1){
+        width:206px;
+        height:64px;
+          margin-left:0px;
+          margin-top:0px;
+        h2{
+            font-size:56px ;
+
+        }
+     }
+ }
+ .imgpara1{
+    display:flex;
+    margin-top:25px;
+    >div:nth-child(1){
+        width:48px;
+        height:48px;
+    }
+    >div:nth-child(2){
+        display:flex;
+        align-items: center;
+        width:200px;
+        height:48px;
+        margin-left:22px;
+        p{
+            color:rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+ }
+ .imgpara2{
+    display:flex;
+    margin-top:32px;
+    >div:nth-child(1){
+        width:48px;
+        height:48px;
+    }
+    >div:nth-child(2){
+        display:flex;
+        align-items: center;
+        width:200px;
+        height:48px;
+        margin-left:22px;
+        font-size:20px;
+       
+    }
+    
+ }
+ .imgpara3{
+    display:flex;
+   
+    margin-top:37px;
+    >div:nth-child(1){
+        width:48px;
+        height:48px;
+    }
+    >div:nth-child(2){
+     display:flex;
+     align-items: center;
+        width:200px;
+        height:48px;
+        margin-left:22px;
+        font-size:16px;
+        font-weight: bold;
+       
+    }
+
+    
+ }

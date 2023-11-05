@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style/fw28_099/footer.css" />
+    <link rel="stylesheet" href="./style/fw28_164/contact.css" />
   </head>
 
   <body>
@@ -12,10 +13,10 @@
     <nav>
       <h3>LOGO</h3>
       <div>
-        <a href="">About</a>
+        <a href="./index.html">About</a>
         <a href="">Porfolio</a>
         <a href="">Blog</a>
-        <a href="">Contact</a>
+        <a href="#">Contact</a>
         <button>Sign up</button>
       </div>
     </nav>
@@ -25,8 +26,12 @@
       <p>Pro eu apeirian suavitate dissentiet</p>
     </div>
     <!-- --- maps--- -->
-    <div id="map">
-      <div id="map1">
+    <div id="mapstart">
+      <!-- --------------------------------
+       --------------------------------
+       ----------------------------- -->
+      <!-- map--image start -->
+      <div id="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9432269175436!2d77.62765636951839!3d12.91137048837168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1525f3226a65%3A0x9d0c72b3bd41f2ef!2sMasai%20School!5e0!3m2!1sen!2sin!4v1698939979130!5m2!1sen!2sin"
           width="100%"
@@ -36,77 +41,57 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+      </div>
+      <!-- map--image end -->
+      <div id="mess">
+        <div id="block1">
+          <div>
+            <h2>Message</h2>
+          </div>
 
-        <!-- --MESSAGE---- -->
-        <h2 id="message">Message</h2>
-        <!-- -------------- -->
-        <form class="post1">
-          <label for="yourname"></label>
-          <input
-            type="text"
-            name="yourname"
-            placeholder="Your Name "
-            id="yourname"
-            required
-          />
-        </form>
+          <div id="nameemail">
+            <div>your name</div>
+            <div>your email</div>
+          </div>
 
-        <!-- ------youremail---- -->
-        <form class="post2">
-          <label for="youremail"></label>
-          <input
-            type="email"
-            name="youremail"
-            placeholder="Your Email "
-            id="youremail"
-            required
-          />
-        </form>
-        <!-- --- yourMESSAGE--- -->
-        <form class="post3">
-          <label for="yourmessage"></label>
-          <input
-            type="text"
-            name="youremail"
-            placeholder="Your Message "
-            id="yourmessage"
-            required
-          />
-        </form>
-        <!-- ---submit--- -->
-        <button type="submit" id="button">Submit</button>
-        <!-- ---INFO---- -->
-        <h2 id="info">Info</h2>
-
-        <!-- ---map--img-- -->
-        <img src="/img/Combined Shape.png" alt="mapimg" />
-
-        <div class="p1">
-          <p>123 Dicunt Ancillae, Mea Homero Persequeris USA</p>
+          <div>your message</div>
+          <div>
+            <button>Submit</button>
+          </div>
         </div>
-
-        <!-- ----phone-img--- -->
-        <img
-          src="/img/Combined Shape (phone).png"
-          alt="phone logo"
-          class="phone"
-        />
-        <div class="p2">
-          <p>123-4567890123</p>
-        </div>
-        <!-- ----email-img---- -->
-        <img
-          src="/img/Combined Shape (message).png"
-          alt="email logo"
-          class="email"
-        />
-        <div class="p3">
-          <p>info@gmail.com</p>
+        <!-- info -->
+        <div id="block2">
+          <div><h2>Info</h2></div>
+          <div class="imgpara1">
+            <div><img src="./img/Combined Shape.png" alt="phoneimg" /></div>
+            <div><p>123 Dicunt Ancillae, Mea Homero Persequeris USA</p></div>
+          </div>
+          <!--  -->
+          <div class="imgpara2">
+            <div>
+              <img src="./img/Combined Shape (phone).png" alt="phoneimg" />
+            </div>
+            <div>123-4567890123</div>
+          </div>
+          <div class="imgpara3">
+            <div>
+              <img src="./img/Combined Shape (message).png" alt="phoneimg" />
+            </div>
+            <div>info@gmail.com</div>
+          </div>
+          <div id="icons">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
+      <!-- end--MAP -->
     </div>
 
-    <!-- end ---Nav  & map -->
+    <!--------------------
+      ----------------------
+       end ---Nav  & map -->
     <footer>
       <!-- First Part Of Footer -->
       <div class="footer1st">
