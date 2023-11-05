@@ -9,6 +9,7 @@ This README.md file provides an overview of designing a webpage and styling it u
 * Abhishek Kumar fw28_276 |
 * Deepak Underiya fw27_088 |
 * Rohit Kumar fw28_206 |
+* Sachin Mohite fw28_099 |
 * Yash Aditya fw28_164 |
 
 ### Project Link
