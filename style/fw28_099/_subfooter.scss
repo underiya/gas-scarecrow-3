@@ -64,62 +64,14 @@ border-radius: 5px;
     height: 48px;
 }
 
-@media screen and (min-width:970px) and (max-width:1130px){
-    .subfootersecond #bttn1{
-        width: 90px;
-        height: 40px;
-        color: #FFF;
-    background-color: blue;
-    text-align: center;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px; /* 150% */
-    border: none;
-    margin-left: 5px;
-    border-radius: 5px;
-    }
-    .subfootersecond input{
-        margin-top: 25%;
-        border-radius: 5px;
-        border: 1px solid #DADADA;
-        background: #FFF;
-        width: 170px;
-        height: 40px;
-    }
-    .subfooterfirst{
-        width: 45%;
-       // border: 1px solid;
-        padding-top: 3.2%;
-        h5{
-            color:  #000;
-    font-family: DM Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 340;
-    line-height: 20px; 
-    letter-spacing: 4.2px;
-    text-transform: uppercase;
-    
-        };
-        h2{
-            color: var(--Text_Black, #000);
-    font-family: DM Serif Display;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 340;
-    line-height: 50px; /* 114.286% */
-    
-        }
-    }
-}
 
-@media screen and (min-width:390px) and (max-width:769px){
+
+@media all and (max-width: 376px){
     #subfooter{
         display: block;
         //  border:1px solid red;
-        margin-left: 11%;
+        margin-left: 6%;
+        width: 80%;
     }
     .subfooterfirst{
          width: 85%;
@@ -128,9 +80,9 @@ border-radius: 5px;
         h5{
             color:  #000;
     font-family: DM Sans;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 180;
     line-height: 14px; 
     letter-spacing: 2.8px;
     text-transform: uppercase;
@@ -146,8 +98,8 @@ border-radius: 5px;
         }
     }
     .subfootersecond{
-        width: 90%;
-       // border: 1px solid;
+        width: 100%;
+    //    border: 1px solid;
     }
     .subfootersecond input{
         margin-top: 10%;
@@ -156,7 +108,7 @@ border-radius: 5px;
         border-radius: 5px;
         border: 1px solid #DADADA;
         background: #FFF;
-        width: 95%;
+        width: 98%;
         height: 48px;
         margin-bottom: 5%;
     }
