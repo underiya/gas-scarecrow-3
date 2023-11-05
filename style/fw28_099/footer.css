@@ -212,9 +212,9 @@ h4 {
   .subfooterfirst h5 {
     color: #000;
     font-family: DM Sans;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 180;
+    font-weight: 200;
     line-height: 14px;
     letter-spacing: 2.8px;
     text-transform: uppercase;
@@ -257,10 +257,10 @@ h4 {
   }
 }
 .lastpart {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  margin-left: 125px;
 }
 .lastpart p {
   color: rgb(168, 169, 173);
@@ -269,6 +269,9 @@ h4 {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+.lastpart #chan1 {
+  margin-left: 680px;
 }
 
 @media all and (max-width: 376px) {
@@ -284,6 +287,9 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+  }
+  .lastpart #chan1 {
+    margin-left: 0px;
   }
 }
 footer {
