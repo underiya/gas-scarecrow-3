@@ -17,7 +17,7 @@ This represent the About page
 
 <img src="./img/documentation/4.png" alt="" />
 
-#### Contact Page[./contact.html]
+#### Contact Page [Link](https://incandescent-llama-4e1267.netlify.app/contact)
 
 This represent the Contact page
 <img src="./img/documentation/5.png" alt="" />
