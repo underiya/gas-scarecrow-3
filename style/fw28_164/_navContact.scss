@@ -112,14 +112,60 @@ nav{
     >div{
         width: 401px;
         height:48px;
-        border:1px solid ;
+        // border:1px solid ;
         border-radius:5px;
     }
     >div:nth-child(1){
         margin-left:0px;
        
     }
- }
+    //for form name part ---
+    input[type=text]{   
+               
+        width:401px;
+        height:48px;
+        border-radius: 5px;
+         border: 1px solid #DADADA;
+          background: #FFF;
+          padding-left:5px;
+          font-size:20px;
+          box-shadow: rgba(230, 226, 226, 0.2) 0px 2px 8px 0px;
+       }
+        input[type=text]:focus {
+      background-color: rgb(238, 238, 238);
+        }
+        input[type=text]:hover{
+            cursor:pointer;
+              }
+    
+    >div:nth-child(2){
+        input[type=email]{   
+                   
+            width:401px;
+            height:48px;
+            border-radius: 5px;
+             border: 1px solid #DADADA;
+              background: #FFF;
+              font-size:20px;
+              box-shadow: rgba(230, 226, 226, 0.2) 0px 2px 8px 0px;
+           }
+            input[type=email]:focus {
+                background-color: rgb(238, 238, 238);
+            }
+            input[type=email]:hover{
+                cursor:pointer;
+                  }
+            
+    }
+
+
+}
+
+    
+
+
+ 
+ 
  #block1{
        
     
@@ -137,15 +183,34 @@ nav{
      >div:nth-child(3){
         width:834px;
             height:144px;
-            border:1px solid;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            // border:1px solid;
             margin-top:28px;
             border-radius:5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background: #FFF;
+         p{
+            margin-left:10px;
+            margin-top:5px;
+
+            color:rgba(0, 0, 0, 0.5);
+            font-size:20px;
+            font-family: Arial, Helvetica, sans-serif;
+         }
      }
+
+     >div:nth-child(3):hover{
+        cursor: pointer;
+        
+     }
+
      >div:nth-child(4){
        
         margin-top:32px;
         button{
-            background-color:rgba(67, 76, 204, 1);
+            background-color:$bg-color;
             font-size: 16px;
             width:170px;
         color:white;
@@ -153,6 +218,8 @@ nav{
         border-radius:5px;
         }
      }
+    
+   
  }
 
  #block2{
@@ -227,3 +294,66 @@ nav{
 
     
  }
+//  $color-light:rgb(15, 31, 247);
+ //for lightblue
+ #icons{
+    width:160px;
+    height:48px;
+    
+    display: flex;
+    margin-top:39px;
+   margin-left:0px;
+    >div:nth-child(1){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+       
+        background-color: $bg-color;
+        border-radius:5px;
+        i{
+            width:9px;
+            height: 18px;
+            color:white;
+        }
+    }
+    >div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0px 8px;
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+   
+        background-color: $bg-color;
+        border-radius:5px;
+        i{
+            width:18px;
+            height: 15px;
+            color:white;
+        }
+    }
+    >div:nth-child(3){
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+       
+        background-color: $bg-color;
+        border-radius:5px;
+        color:#DADADA;
+        i{
+            color:white;
+            width:18px;
+            height: 18px;
+        }
+    }
+ }
+
+
+//  for message  part

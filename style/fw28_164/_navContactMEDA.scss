@@ -1,0 +1,289 @@
+@media all and(max-width:480px){
+#mapstart{
+    width: 375px;
+   
+    
+    // height: 1248px;
+    flex-shrink: 0;
+    // border:1px solid  black;
+    background-color: rgb(245,246,252);
+    // display:flex;
+    flex-direction: column;
+    position: relative;
+}
+}
+     @media all and(max-width:480px){
+     #mapstart{
+    #map{
+        width: 347px;
+        height: 190px;
+        padding-top: 16PX;
+        flex-shrink: 0;
+        margin:0px 14px 0px 14px;
+             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      // border:2px solid black;
+       position:relative;
+
+        }
+     }
+    
+    #mess{
+        width:375px;
+        height: 1248px;
+      
+        // border:1px solid black;
+        display: flex;
+        
+      
+    }
+}
+//  #nameemail{
+//     display:flex;
+//     margin-top:34px;
+//     width:835px;
+
+//     >div{
+//         width: 401px;
+//         height:48px;
+//         // border:1px solid ;
+//         border-radius:5px;
+//     }
+//     >div:nth-child(1){
+//         margin-left:0px;
+       
+//     }
+//     //for form name part ---
+//     input[type=text]{   
+               
+//         width:401px;
+//         height:48px;
+//         border-radius: 5px;
+//          border: 1px solid #DADADA;
+//           background: #FFF;
+//           padding-left:5px;
+//           font-size:20px;
+//           box-shadow: rgba(230, 226, 226, 0.2) 0px 2px 8px 0px;
+//        }
+//         input[type=text]:focus {
+//       background-color: rgb(238, 238, 238);
+//         }
+//         input[type=text]:hover{
+//             cursor:pointer;
+//               }
+    
+//     >div:nth-child(2){
+//         input[type=email]{   
+                   
+//             width:401px;
+//             height:48px;
+//             border-radius: 5px;
+//              border: 1px solid #DADADA;
+//               background: #FFF;
+//               font-size:20px;
+//               box-shadow: rgba(230, 226, 226, 0.2) 0px 2px 8px 0px;
+//            }
+//             input[type=email]:focus {
+//                 background-color: rgb(238, 238, 238);
+//             }
+//             input[type=email]:hover{
+//                 cursor:pointer;
+//                   }
+            
+//     }
+
+
+// }
+
+    
+
+
+ 
+ 
+//  #block1{
+       
+    
+//      >div:nth-child(1){
+//         width:206px;
+//         height:64px;
+//           margin-left:0px;
+//           margin-top:0px;
+//         h2{
+//             font-size:56px ;
+
+//         }
+//      }
+
+//      >div:nth-child(3){
+//         width:834px;
+//             height:144px;
+//             font-size: 21px;
+//             font-style: normal;
+//             font-weight: 400;
+//             // border:1px solid;
+//             margin-top:28px;
+//             border-radius:5px;
+//             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+//             background: #FFF;
+//          p{
+//             margin-left:10px;
+//             margin-top:5px;
+
+//             color:rgba(0, 0, 0, 0.5);
+//             font-size:20px;
+//             font-family: Arial, Helvetica, sans-serif;
+//          }
+//      }
+
+//      >div:nth-child(3):hover{
+//         cursor: pointer;
+        
+//      }
+
+//      >div:nth-child(4){
+       
+//         margin-top:32px;
+//         button{
+//             background-color:$bg-color;
+//             font-size: 16px;
+//             width:170px;
+//         color:white;
+//         height:48px;
+//         border-radius:5px;
+//         }
+//      }
+    
+   
+//  }
+
+//  #block2{
+//     margin-top:77px;
+//    margin-left:0px;
+//     >div:nth-child(1){
+//         width:206px;
+//         height:64px;
+//           margin-left:0px;
+//           margin-top:0px;
+//         h2{
+//             font-size:56px ;
+
+//         }
+//      }
+//  }
+//  .imgpara1{
+//     display:flex;
+//     margin-top:25px;
+//     >div:nth-child(1){
+//         width:48px;
+//         height:48px;
+//     }
+//     >div:nth-child(2){
+//         display:flex;
+//         align-items: center;
+//         width:200px;
+//         height:48px;
+//         margin-left:22px;
+//         p{
+//             color:rgba(0, 0, 0, 0.5);
+//         }
+//     }
+    
+//  }
+//  .imgpara2{
+//     display:flex;
+//     margin-top:32px;
+//     >div:nth-child(1){
+//         width:48px;
+//         height:48px;
+//     }
+//     >div:nth-child(2){
+//         display:flex;
+//         align-items: center;
+//         width:200px;
+//         height:48px;
+//         margin-left:22px;
+//         font-size:20px;
+       
+//     }
+    
+//  }
+//  .imgpara3{
+//     display:flex;
+   
+//     margin-top:37px;
+//     >div:nth-child(1){
+//         width:48px;
+//         height:48px;
+//     }
+//     >div:nth-child(2){
+//      display:flex;
+//      align-items: center;
+//         width:200px;
+//         height:48px;
+//         margin-left:22px;
+//         font-size:16px;
+//         font-weight: bold;
+       
+//     }
+
+    
+//  }
+// //  $color-light:rgb(15, 31, 247);
+//  //for lightblue
+//  #icons{
+//     width:160px;
+//     height:48px;
+    
+//     display: flex;
+//     margin-top:39px;
+//    margin-left:0px;
+//     >div:nth-child(1){
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         width: 48px;
+//         height: 48px;
+//         flex-shrink: 0;
+       
+//         background-color: $bg-color;
+//         border-radius:5px;
+//         i{
+//             width:9px;
+//             height: 18px;
+//             color:white;
+//         }
+//     }
+//     >div:nth-child(2){
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         margin:0px 8px;
+//         width: 48px;
+//         height: 48px;
+//         flex-shrink: 0;
+   
+//         background-color: $bg-color;
+//         border-radius:5px;
+//         i{
+//             width:18px;
+//             height: 15px;
+//             color:white;
+//         }
+//     }
+//     >div:nth-child(3){
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;    
+//         width: 48px;
+//         height: 48px;
+//         flex-shrink: 0;
+       
+//         background-color: $bg-color;
+//         border-radius:5px;
+//         color:#DADADA;
+//         i{
+//             color:white;
+//             width:18px;
+//             height: 18px;
+//         }
+//     }
+//  }
