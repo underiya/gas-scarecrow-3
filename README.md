@@ -1,4 +1,4 @@
-# [gas-scarecrow-3](https://incandescent-llama-4e1267.netlify.app/)
+# [Gas-scarecrow-3](https://incandescent-llama-4e1267.netlify.app/)
 
 This Poject gives the glimpse of designing a webpage and styling it using Sass (Syntactically Awesome Stylesheets). Sass is a powerful CSS preprocessor that enables you to create modular and maintainable styles for your web pages.
 
