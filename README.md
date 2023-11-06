@@ -8,6 +8,7 @@ This Poject gives the glimpse of designing a webpage and styling it using Sass (
 
 #### About Page[index.html]
 
+This represent the About page
 <img src="./img/documentation/1.png" alt="" />
 
 <img src="./img/documentation/2.png" alt="" />
@@ -18,7 +19,8 @@ This Poject gives the glimpse of designing a webpage and styling it using Sass (
 
 #### Contact Page[contact.html]
 
-  <img src="./img/documentation/5.png" alt="" />
+This represent the Contact page
+<img src="./img/documentation/5.png" alt="" />
 
 ### Tech Stacks
 
