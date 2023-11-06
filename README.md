@@ -6,7 +6,7 @@ This Poject gives the glimpse of designing a webpage and styling it using Sass (
 
 ### Documentation
 
-#### About Page[index.html]
+#### About Page [Link](https://incandescent-llama-4e1267.netlify.app/)
 
 This represent the About page
 <img src="./img/documentation/1.png" alt="" />
